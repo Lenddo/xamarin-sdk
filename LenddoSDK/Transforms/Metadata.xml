@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <attr path="/api/package[@name='com.lenddo.mobile.datasdk.listeners']/interface[@name='AndroidDataResponseListener']/method[@name='onSuccess']/parameter[@type='']" name="argsType">AndroidDataResponseListenerSuccessEventArgs</attr>
+    
+  <attr path="/api/package[@name='com.lenddo.mobile.core.listeners']/interface[@name='TokenListener']/method[@name='onSuccess']" name="argsType">OnTokenListenerSuccessEventArgs</attr>
+  <attr path="/api/package[@name='com.lenddo.mobile.core.listeners']/interface[@name='TokenListener']/method[@name='onError']" name="argsType">OnTokenListenerErrorEventArgs</attr>
+  <attr path="/api/package[@name='com.lenddo.mobile.core.listeners']/interface[@name='TokenListener']/method[@name='onFailure']" name="argsType">OnTokenListenerFailureEventArgs</attr>
+  <attr path="/api/package[@name='com.lenddo.mobile.datasdk.listeners']/interface[@name='NetworkCallResponseListener']/method[@name='onSuccess']" name="argsType">NetworkCallResponseListenerSuccessEventArgs</attr>
+  <attr path="/api/package[@name='com.lenddo.mobile.datasdk.listeners']/interface[@name='NetworkCallResponseListener']/method[@name='onError']" name="argsType">NetworkCallResponseListenerErrorEventArgs</attr>
+  <attr path="/api/package[@name='com.lenddo.mobile.datasdk.listeners']/interface[@name='NetworkCallResponseListener']/method[@name='onFailure']" name="argsType">NetworkCallResponseListenerFailureEventArgs</attr>
+  <attr path="/api/package[@name='com.lenddo.mobile.datasdk.listeners']/interface[@name='NetworkStatusListener']/method[@name='onError']" name="argsType">NetworkStatusListenerErrorEventArgs</attr>
+  <attr path="/api/package[@name='com.lenddo.mobile.datasdk.listeners']/interface[@name='StatusListener']/method[@name='onSuccess']" name="argsType">OnStatusListenerSuccessEventArgs</attr>
+  <attr path="/api/package[@name='com.lenddo.mobile.datasdk.listeners']/interface[@name='OnBatteryChargeSubmittedListener']/method[@name='onSuccess']" name="argsType">OnBatteryChargeSubmittedListenerSuccessEventArgs</attr>
+  <attr path="/api/package[@name='com.lenddo.mobile.datasdk.listeners']/interface[@name='OnBatteryChargeSubmittedListener']/method[@name='onError']" name="argsType">OnBatteryChargeSubmittedListenerErrorEventArgs</attr>
+  <attr path="/api/package[@name='com.lenddo.mobile.datasdk.listeners']/interface[@name='OnBatteryChargeSubmittedListener']/method[@name='onFailure']" name="argsType">OnBatteryChargeSubmittedListenerFailureEventArgs</attr>
+  <attr path="/api/package[@name='com.lenddo.mobile.datasdk.listeners']/interface[@name='OnRegistrationCompleteListener']/method[@name='onSuccess']" name="argsType">OnRegistrationCompleteListenerSuccessEventArgs</attr>
+  <attr path="/api/package[@name='com.lenddo.mobile.datasdk.listeners']/interface[@name='OnLocationSubmittedListener']/method[@name='onSuccess']" name="argsType">OnLocationSubmittedListenerSuccessEventArgs</attr>
+  <attr path="/api/package[@name='com.lenddo.mobile.datasdk.listeners']/interface[@name='OnLocationSubmittedListener']/method[@name='onFailure']" name="argsType">OnLocationSubmittedListenerFailureEventArgs</attr>
+  <attr path="/api/package[@name='com.lenddo.mobile.datasdk.listeners']/interface[@name='TokenListener']/method[@name='onSuccess']" name="argsType">OnTokenListenerSuccessEventArgs</attr>
+  <attr path="/api/package[@name='com.lenddo.mobile.datasdk.listeners']/interface[@name='TokenListener']/method[@name='onError']" name="argsType">OnTokenListenerErrorEventArgs</attr>
+  <attr path="/api/package[@name='com.lenddo.mobile.datasdk.listeners']/interface[@name='TokenListener']/method[@name='onFailure']" name="argsType">OnTokenListenerFailureEventArgs</attr>
+  <attr path="/api/package[@name='com.lenddo.mobile.datasdk.listeners']/interface[@name='StatusListener']/method[@name='onSuccess']" name="argsType">OnStatusListenerSuccessEventArgs</attr>
+  <attr path="/api/package[@name='com.lenddo.mobile.datasdk.listeners']/interface[@name='StatusListener']/method[@name='onError']" name="argsType">OnStatusListenerErrorEventArgs</attr>
+  <attr path="/api/package[@name='com.lenddo.mobile.datasdk.listeners']/interface[@name='StatusListener']/method[@name='onFailure']" name="argsType">OnStatusListenerFailureEventArgs</attr>
+  <attr path="/api/package[@name='com.lenddo.mobile.datasdk.listeners']/interface[@name='OnRegistrationCompleteListener']/method[@name='onError']" name="argsType">OnRegistrationCompleteListenerErrorEventArgs</attr>
+  <attr path="/api/package[@name='com.lenddo.mobile.datasdk.listeners']/interface[@name='OnRegistrationCompleteListener']/method[@name='onFailure']" name="argsType">OnRegistrationCompleteListenerFailureEventArgs</attr>
+  <attr path="/api/package[@name='com.lenddo.mobile.onboardingsdk.listeners']/interface[@name='OnUrlObtainedListener']/method[@name='onError']" name="argsType">OnErrorEventArgs</attr>
+  <attr path="/api/package[@name='com.lenddo.mobile.onboardingsdk.listeners']/interface[@name='OnUrlObtainedListener']/method[@name='onFailure']" name="argsType">OnFailureEventArgs</attr>
+
+    <remove-node path="/api/package/class/implements[@name='android.provider.BaseColumns']" />
+    <attr path="/api/package[@name='com.lenddo.mobile.datasdk.models']/class[@name='CalendarEvent']/method[@name='compareTo']/parameter[@type='com.lenddo.mobile.datasdk.models.CalendarEvent']" name="type">java.lang.Object</attr>
+</metadata>
