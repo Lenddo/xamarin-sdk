@@ -41,8 +41,8 @@ namespace LenddoSDKXamarinDemo
             // Initialize LenddoCoreInfo
             Log.Instance.DisplayLog = true;
             LenddoCoreInfo.InitCoreInfo(ApplicationContext);
-            //LenddoCoreInfo.SetDataPartnerScriptId(ApplicationContext, "5b45f5b2f7a57920b62e63e7");
-            //LenddoCoreInfo.SetOnboardingPartnerScriptId(ApplicationContext, "5b45f5b2f7a57920b62e63e7");
+            LenddoCoreInfo.SetDataPartnerScriptId(ApplicationContext, "5671d773aa961243c55ee6ad");
+            LenddoCoreInfo.SetOnboardingPartnerScriptId(ApplicationContext, "5b45f5b2f7a57920b62e63e7");
 
             // Initialize Fields
             edt_application_id = FindViewById<EditText>(Resource.Id.edt_application_id);
@@ -59,15 +59,15 @@ namespace LenddoSDKXamarinDemo
 
 
             // Get our button from the layout resource, and attach an event to it
-            //Button btn_collect_mobile_data = FindViewById<Button>(Resource.Id.btn_collect_mobile_data);
+            Button btn_collect_mobile_data = FindViewById<Button>(Resource.Id.btn_collect_mobile_data);
+            btn_collect_mobile_data.Text = "Collect Mobile Data";
             btn_startonboarding = FindViewById<Button>(Resource.Id.btn_startonboarding);
 
-            //btn_collect_mobile_data.Click += delegate
-            //{
-            //    btn_collect_mobile_data.Text = "Collect Mobile Data";
-            //    //startDataSDK();
-            //    //startOnboardingSDK();
-            //};
+            btn_collect_mobile_data.Click += delegate
+            {
+                startDataSDK();
+                //startOnboardingSDK();
+            };
 
             btn_startonboarding.Click += delegate
             {

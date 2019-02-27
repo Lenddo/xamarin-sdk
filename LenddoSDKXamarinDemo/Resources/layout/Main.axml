@@ -13,7 +13,7 @@
     <EditText android:id="@+id/edt_email" android:layout_width="match_parent" android:layout_height="48dp" android:hint="Personal Email " />
     <EditText android:id="@+id/edt_work_email" android:layout_width="match_parent" android:layout_height="48dp" android:hint="Work Email" />
     
-    <!--<Button android:id="@+id/btn_collect_mobile_data" android:layout_width="match_parent" android:layout_height="wrap_content" />-->
+    <Button android:id="@+id/btn_collect_mobile_data" android:layout_width="match_parent" android:layout_height="wrap_content" />
     <Button android:id="@+id/btn_startonboarding" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Onboard Social Network"/>
     
     <TextView android:id="@+id/tv_success" android:layout_width="wrap_content" android:layout_height="wrap_content" />
