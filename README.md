@@ -34,13 +34,13 @@ There may be also other partner specific values that you are required to set.
 
 - Compile using Android version: (Target Framework), Select `Android 8.1 Oreo`
 
-![Project Properties](https://github.com/Lenddo/xamarin-sdk/blob/feature/data-sdk/LenddoSDK/Wiki/project_properties.PNG)
+![Project Properties](https://github.com/Lenddo/xamarin-sdk/blob/master/Wiki/project_properties.PNG)
 
 3. Create a Bindings Library for the Android Archive file, lenddosdk-release.aar. 
 
 - Please make sure that the Build Action is `LibraryProjectZip`
 
-![Build Action](https://github.com/Lenddo/xamarin-sdk/blob/feature/data-sdk/LenddoSDK/Wiki/aar_build_action.PNG)
+![Build Action](https://github.com/Lenddo/xamarin-sdk/blob/master/Wiki/aar_build_action.PNG)
 
 4. NuGet dependencies 
 
@@ -48,7 +48,7 @@ There may be also other partner specific values that you are required to set.
 
 5. In your project that will utilize the LenddoSDK, please make sure that the LenddoSDK is added as a reference under `Projects > Solution` in the Reference Manager 
 
-![Reference](https://github.com/Lenddo/xamarin-sdk/blob/feature/data-sdk/LenddoSDK/Wiki/add_reference_project.PNG)
+![Reference](https://github.com/Lenddo/xamarin-sdk/blob/master/Wiki/add_reference_project.PNG)
 
 6. Sample Implementation
 
