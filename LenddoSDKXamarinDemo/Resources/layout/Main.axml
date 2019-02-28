@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:padding="32dp">
+    <EditText android:id="@+id/edt_application_id" android:layout_width="match_parent" android:layout_height="48dp" android:hint="Application ID" />
+    <EditText android:id="@+id/edt_partner_script_id" android:layout_width="match_parent" android:layout_height="48dp" android:hint="Partner Script ID" android:text="5671d773aa961243c55ee6ad" />
+    
+    <EditText android:id="@+id/edt_firstname" android:layout_width="match_parent" android:layout_height="48dp" android:hint="Firstname" />
+    <EditText android:id="@+id/edt_middlename" android:layout_width="match_parent" android:layout_height="48dp" android:hint="Middlename" />
+    <EditText android:id="@+id/edt_lastname" android:layout_width="match_parent" android:layout_height="48dp" android:hint="Lastname" />
+    
+    <EditText android:id="@+id/edt_university" android:layout_width="match_parent" android:layout_height="48dp" android:hint="University" />
+    <EditText android:id="@+id/edt_employer" android:layout_width="match_parent" android:layout_height="48dp" android:hint="Employer" />
+    
+    <EditText android:id="@+id/edt_email" android:layout_width="match_parent" android:layout_height="48dp" android:hint="Personal Email " />
+    <EditText android:id="@+id/edt_work_email" android:layout_width="match_parent" android:layout_height="48dp" android:hint="Work Email" />
+    
+    <Button android:id="@+id/btn_collect_mobile_data" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <Button android:id="@+id/btn_startonboarding" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Onboard Social Network"/>
+    
+    <TextView android:id="@+id/tv_success" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>
