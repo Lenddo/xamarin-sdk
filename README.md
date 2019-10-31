@@ -118,7 +118,7 @@ helper.Collector.PartnerScriptId = edt_partner_script_id.Text;
 helper.ShowAuthorize();
 ```
 
-* Data SDK 
+* Data SDK - This activates mobile data collection that will be used for scoring the applicant. Note that if this is applicable, this should come first before performing the Onboarding SDK above.
 
 ```csharp
 ClientOptions clientOptions = new ClientOptions();
